@@ -1,0 +1,926 @@
+{
+	"id": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+	"name": "clickkart",
+	"description": "",
+	"order": [
+		"b59577d7-d195-b223-7d80-d38b8472a3d1",
+		"f4c02145-1c52-89c6-46c7-2f15a438e523",
+		"6dcda244-c5b2-29d4-cefd-c2988958bef5",
+		"27a05aae-b491-02f1-527b-4bcbce1cf0bf",
+		"b08e569c-4fcc-6029-343a-e894a6c63739",
+		"9f98c5b4-05d1-0ce9-5ff7-a81b15929c2d",
+		"ebc4c6b5-e86c-0e39-00cc-c227a6be45e1",
+		"dd93d493-9045-2dd3-9904-0e0fc51f780f",
+		"084accfa-e315-a64e-11c1-35ae6eb93591",
+		"605ac2d6-e0ab-0856-6429-acbb2f2b1c4f",
+		"dac3e3eb-6419-1d42-688f-33f32129c4b2",
+		"a472d819-1c4e-9a34-3d74-c3ea11b2e15d",
+		"bf42e854-f359-f957-4aa8-e117fa46210c",
+		"9842ef51-8ee6-0e4c-80e1-652fdba52847",
+		"c36de6fb-dfe2-a706-86cf-507f922e2ac0",
+		"9038ab65-74c1-caee-53dd-b36c6b9a3cbc",
+		"33c5e989-b136-a9ec-9515-315cb0ff8312",
+		"ef58fb2c-0fbc-1248-691b-9f2d5935e81f",
+		"9114f685-e7a6-1d17-66be-53e1c950ab53",
+		"e65bc8af-f629-da53-0286-9234100c8514",
+		"35530012-c96c-755a-0cfb-836e6b056b37",
+		"a97aea44-1aa1-d58c-49f3-0e456c2d1c9a",
+		"00c61323-6243-56db-6a1f-65169f82f1f8",
+		"019bd352-c817-6dd8-2f21-db195e38cb86",
+		"0480b1de-cdf2-06ec-d86a-b5cdb2dcd170",
+		"8a10b37c-f426-9c62-3c9e-a7c2d1bd0b07",
+		"62153768-474f-ffb9-8881-0a117db327ca",
+		"d533ee55-3709-6ae0-f058-97ea58be71aa",
+		"530357f4-e8c9-8129-7e3f-eb04232290da",
+		"dcb84160-4077-c624-b8dc-73cf030f232f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": "11740933",
+	"public": false,
+	"requests": [
+		{
+			"id": "00c61323-6243-56db-6a1f-65169f82f1f8",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/select_address",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592543088511,
+			"name": "select_address",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"address_id\":\"1\"}"
+		},
+		{
+			"id": "019bd352-c817-6dd8-2f21-db195e38cb86",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/edit_profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592541800600,
+			"name": "edit_profile",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"fullname\":\"anila\",\"email\":\"anila@gmail.com\",\"phone_no\":\"9087654686\"}"
+		},
+		{
+			"id": "0480b1de-cdf2-06ec-d86a-b5cdb2dcd170",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/change_password",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592543456703,
+			"name": "change_password",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"phone_no\":\"9087654686\",\"password\":\"123456\",\"npassword\":\"123456\"}"
+		},
+		{
+			"id": "084accfa-e315-a64e-11c1-35ae6eb93591",
+			"headers": "Auth: 0fea019b436d32f8e469567df3af3c36\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "0fea019b436d32f8e469567df3af3c36",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/get_product",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592464561836,
+			"name": "get_product",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"store_id\":\"1\",\"category_id\":\"1\"}"
+		},
+		{
+			"id": "27a05aae-b491-02f1-527b-4bcbce1cf0bf",
+			"headers": "Auth: 0fea019b436d32f8e469567df3af3c36\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "0fea019b436d32f8e469567df3af3c36",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/update_cart",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592461429304,
+			"name": "update_cart",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"product_id\":\"3\",\"quantity\":\"6\"}"
+		},
+		{
+			"id": "33c5e989-b136-a9ec-9515-315cb0ff8312",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/logout",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592487115901,
+			"name": "Logout",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": []
+		},
+		{
+			"id": "35530012-c96c-755a-0cfb-836e6b056b37",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/wallet_updatemoney?",
+			"queryParams": [
+				{
+					"key": "",
+					"value": "",
+					"enabled": false
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592488075188,
+			"name": "Update Wallet",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"money\":110, \"action\":2}"
+		},
+		{
+			"id": "530357f4-e8c9-8129-7e3f-eb04232290da",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/stores_search",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592542207064,
+			"name": "stores_search",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"store_name\":\"bcd\"}"
+		},
+		{
+			"id": "605ac2d6-e0ab-0856-6429-acbb2f2b1c4f",
+			"headers": "Auth: 0fea019b436d32f8e469567df3af3c36\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "0fea019b436d32f8e469567df3af3c36",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/get_cart",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592464971077,
+			"name": "get_cart",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "62153768-474f-ffb9-8881-0a117db327ca",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/product_search",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592544022785,
+			"name": "product_search",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"product_name\":\"Mercedes\"}"
+		},
+		{
+			"id": "6dcda244-c5b2-29d4-cefd-c2988958bef5",
+			"headers": "Auth: 0fea019b436d32f8e469567df3af3c36\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "0fea019b436d32f8e469567df3af3c36",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/add_cart",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592460623510,
+			"name": "add_cart",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"product_id\":\"3\",\"quantity\":\"2\"}"
+		},
+		{
+			"id": "8a10b37c-f426-9c62-3c9e-a7c2d1bd0b07",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/user_image?",
+			"queryParams": [
+				{
+					"key": "",
+					"value": "",
+					"enabled": false
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "file",
+					"value": "",
+					"type": "file"
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592542014600,
+			"name": "user_image",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": []
+		},
+		{
+			"id": "9038ab65-74c1-caee-53dd-b36c6b9a3cbc",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/order_details",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592572841581,
+			"name": "Order Details",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"order_id\":1}"
+		},
+		{
+			"id": "9114f685-e7a6-1d17-66be-53e1c950ab53",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/user_details",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592487485600,
+			"name": "User Details",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": []
+		},
+		{
+			"id": "9842ef51-8ee6-0e4c-80e1-652fdba52847",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/store_details",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592472622446,
+			"name": "Stores",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"city_id\":7}"
+		},
+		{
+			"id": "9f98c5b4-05d1-0ce9-5ff7-a81b15929c2d",
+			"headers": "Auth: 0fea019b436d32f8e469567df3af3c36\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "0fea019b436d32f8e469567df3af3c36",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/order_history",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592463401280,
+			"name": "order_history",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"page\":\"1\"}"
+		},
+		{
+			"id": "a472d819-1c4e-9a34-3d74-c3ea11b2e15d",
+			"headers": "Auth: \nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/do_login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592471452996,
+			"name": "User_login",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"email\":\"abc@gmail.com\",\"password\":\"123456\"}"
+		},
+		{
+			"id": "a97aea44-1aa1-d58c-49f3-0e456c2d1c9a",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/add_address",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592541642349,
+			"name": "add_address",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"street\":\"MN street\",\"landmark\":\"MN nagar\",\"zipcode\":\"678543\"}"
+		},
+		{
+			"id": "b08e569c-4fcc-6029-343a-e894a6c63739",
+			"headers": "Auth: 0fea019b436d32f8e469567df3af3c36\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "0fea019b436d32f8e469567df3af3c36",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/deleteitem_cart",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592461455711,
+			"name": "deleteitem_cart",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"product_id\":\"3\"}"
+		},
+		{
+			"id": "b59577d7-d195-b223-7d80-d38b8472a3d1",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592460185099,
+			"name": "register",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"fullname\":\"abc\",\"email\":\"abc@gmail.com\",\"phone_no\":\"0123456789\",\"district\":\"ernakulam\",\"password\":\"1234\"}"
+		},
+		{
+			"id": "bf42e854-f359-f957-4aa8-e117fa46210c",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/pastorder_details",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592471545498,
+			"name": "Pastorder",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "c36de6fb-dfe2-a706-86cf-507f922e2ac0",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/promocode",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592572797997,
+			"name": "Promocode",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"promo_code\":\"monsoon_offer\",\"amount\":1000}"
+		},
+		{
+			"id": "d533ee55-3709-6ae0-f058-97ea58be71aa",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/category_search",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592542163217,
+			"name": "category_search",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"category_name\":\"veg\"}"
+		},
+		{
+			"id": "dac3e3eb-6419-1d42-688f-33f32129c4b2",
+			"name": "get_city",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"method": "POST",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\"city_id\":\"1\"}",
+			"url": "http://localhost/clickkart/Webservices/get_city",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "cb0a80be-8494-6a78-c2a8-aaf07812b44e"
+		},
+		{
+			"id": "dcb84160-4077-c624-b8dc-73cf030f232f",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/people_favorite_stores",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592546718771,
+			"name": "people_favorite_stores",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": []
+		},
+		{
+			"id": "dd93d493-9045-2dd3-9904-0e0fc51f780f",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/get_location",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592547715883,
+			"name": "get_location",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"zip_code\":\"fds\"}"
+		},
+		{
+			"id": "e65bc8af-f629-da53-0286-9234100c8514",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/wallet_addmoney",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592487609725,
+			"name": "Add Money",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"money\":100}"
+		},
+		{
+			"id": "ebc4c6b5-e86c-0e39-00cc-c227a6be45e1",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/delete_address",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592543258929,
+			"name": "delete_address",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"address_id\":\"1\"}"
+		},
+		{
+			"id": "ef58fb2c-0fbc-1248-691b-9f2d5935e81f",
+			"headers": "Auth: fd8209168281e06f7a7eeaf022f347c4\n",
+			"headerData": [
+				{
+					"key": "Auth",
+					"value": "fd8209168281e06f7a7eeaf022f347c4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/clickkart/Webservices/favourite_store",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592487154532,
+			"name": "Favourite Store",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": []
+		},
+		{
+			"id": "f4c02145-1c52-89c6-46c7-2f15a438e523",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/clickkart/Webservices/forgot_password",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592460566225,
+			"name": "forgot_password",
+			"description": "",
+			"collectionId": "cb0a80be-8494-6a78-c2a8-aaf07812b44e",
+			"responses": [],
+			"rawModeData": "{\"phone_no\":\"0123456789\",\"password\":\"vivek\"}"
+		}
+	]
+}
